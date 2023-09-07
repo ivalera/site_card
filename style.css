@@ -1,5 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Montserrat:wght@700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     border: 0;
+}
+header{
+    background: #07203F;
+    color: #FFF;
+    border-bottom: 1px solid #FFF;
+} 
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding: 55px 0;
+}
+.nickname{
+    font-family: 'Montserrat';
+    font-size: 36px;
+    font-weight: 700;
+}
+.list_menu{
+    display: flex;
+    gap: 40px;
+}
+.menu_elem{
+    font-family: 'Inter';
+    font-size: 36px;
+    text-transform: uppercase;
+}
+a{
+    color: #FFF;
+}
+a:active{
+    color: rgba(255, 255, 255, 0.5);
+}
+a:visited{
+    color: #FFF;
 }

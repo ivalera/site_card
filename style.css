@@ -1,40 +1,163 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@700;800&family=Roboto:wght@700&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
+* {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
 }
+
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+aside,
+nav,
+footer,
+header,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+main {
+	flex: 1 1 auto;
+}
+
+body,
+html {
+	height: 100%;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button {
+	background-color: transparent;
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+    color: #FFF;
+
+}
+
+a:active{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
 header{
     background: #07203F;
     color: #FFF;
     border-bottom: 1px solid #FFF;
-} 
+}
+
 .container{
     display: flex;
     justify-content: space-around;
+}
+
+.navigation{
     padding: 55px 0;
 }
+
 .nickname{
     font-family: 'Montserrat';
     font-size: 36px;
     font-weight: 700;
 }
+
 .list_menu{
     display: flex;
     gap: 40px;
 }
+
 .menu_elem{
     font-family: 'Inter';
     font-size: 36px;
     text-transform: uppercase;
 }
-a{
-    color: #FFF;
+
+.about{
+    background: #07203F;
+    align-items: end;
+    padding: 135px 0 150px;
 }
-a:active{
-    color: rgba(255, 255, 255, 0.5);
+
+.about_me{
+    color: #D9D9D9;;
+    width: 605px;
 }
-a:visited{
-    color: #FFF;
+
+.about_me h1{
+    font-family: 'Montserrat';
+    font-size: 64px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.about_me p{
+    margin-top: 49px;
+    font-family: 'Roboto';
+    font-size: 36px;
+}
+
+.btn_callme{
+    margin-top: 49px;
+    width: 100%;
+    padding: 28px;
+    border-radius: 48px;
+    font-family: 'Inter';
+    font-size: 40px;
+    color: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: #D9D9D9;
+}
+.btn_callme:hover{
+    background: #000;
+    color: #fff;
+}
+.my_photo{
+    width: 516px;
+    border-radius: 258px;
 }

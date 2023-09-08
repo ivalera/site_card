@@ -92,12 +92,9 @@ header{
 }
 
 .container{
+    padding: 55px 130px;
     display: flex;
-    justify-content: space-around;
-}
-
-.navigation{
-    padding: 55px 0;
+    justify-content: space-between;
 }
 
 .nickname{
@@ -120,7 +117,7 @@ header{
 .about{
     background: #07203F;
     align-items: end;
-    padding: 135px 0 150px;
+    padding: 130px;
 }
 
 .about_me{
